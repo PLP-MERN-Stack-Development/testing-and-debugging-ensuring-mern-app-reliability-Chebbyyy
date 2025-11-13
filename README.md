@@ -128,7 +128,6 @@ npm run test:ui
 
 ## API Endpoints
 
-Base URL: http://localhost:5000/api
 
 - GET /bugs - Get all bugs
 - POST /bugs - Create a new bug
@@ -156,4 +155,5 @@ Run tests with `npm test` in respective directories.
 - **Chrome DevTools**: Inspected network requests, component state, and console errors for frontend debugging.
 - **Error Boundaries**: Implemented React Error Boundary to catch and display frontend crashes gracefully.
 - **Intentional Bugs**: Introduced bugs (e.g., commented status update) to practice debugging and resolution.
+
 - **Test-Driven Debugging**: Used failing tests to identify and fix issues in code logic.
