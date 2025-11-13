@@ -31,35 +31,41 @@ A full-stack Bug Tracker application built with the MERN stack (MongoDB, Express
 
 ## Project Structure
 
+```
 mern-bug-tracker/
-├── backend/
-│   ├── src/
-│   │   ├── config/
-│   │   │   └── db.js
-│   │   ├── models/
-│   │   │   └── Bug.js
-│   │   ├── routes/
-│   │   │   └── bugRoutes.js
-│   │   ├── tests/
-│   │   │   └── bug.test.js
-│   │   └── server.js
-│   └── package.json
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── components/
-│   │   │   └── BugItem.jsx
-│   │   ├── lib/
-│   │   │   └── api.js
-│   │   ├── App.jsx
-│   │   ├── App.test.jsx
-│   │   ├── setupTests.js
-│   │   ├── main.jsx
-│   │   └── index.css
-│   ├── vite.config.js
-│   ├── eslint.config.js
-│   └── package.json
-└── README.md
+- backend/
+  - src/
+    - config/
+      - db.js
+    - models/
+      - Bug.js
+    - routes/
+      - bugRoutes.js
+    - tests/
+      - bug.test.js
+    - server.js
+  - package.json
+  - jest.config.js
+- frontend/
+  - public/
+    - index.html
+  - src/
+    - components/
+      - BugItem.jsx
+      - ErrorBoundary.jsx
+    - lib/
+      - api.js
+    - App.jsx
+    - App.test.jsx
+    - setupTests.js
+    - main.jsx
+    - index.css
+  - tailwind.config.js
+  - vite.config.js
+  - eslint.config.js
+  - package.json
+- README.md
+```
 
 ## Prerequisites
 
